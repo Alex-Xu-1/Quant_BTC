@@ -1,0 +1,28 @@
+[project]
+name = "quant-btc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.13"
+dependencies = [
+    "ccxt>=4.5.56",
+    "ipywidgets>=8.1.8",
+    "joblib>=1.5.3",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.9",
+    "mplfinance>=0.12.10b0",
+    "numpy>=2.2.6",
+    "optuna>=4.8.0",
+    "pandas>=2.3.3",
+    "pandas-ta>=0.4.71b0",
+    "plotly>=6.7.0",
+    "python-dotenv>=1.2.2",
+    "scikit-learn>=1.8.0",
+    "scipy>=1.17.1",
+    "seaborn>=0.13.2",
+    "shap>=0.52.0",
+    "statsmodels>=0.14.6",
+    "tensorflow>=2.21.0",
+    "tqdm>=4.67.3",
+    "xgboost>=3.2.0",
+]

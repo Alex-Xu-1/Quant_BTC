@@ -1,0 +1,41 @@
+# .gitignore - BTC ML 量化策略项目
+
+# 环境变量（含API密钥，不可提交）
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# uv 虚拟环境
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 数据文件（体积大，不提交）
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.pkl
+
+# 模型文件（体积大，不提交）
+models/*.pkl
+models/*.h5
+models/*.keras
+
+# 结果文件
+results/*.csv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.codebuddy/
