@@ -3,7 +3,7 @@ name = "quant-btc"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12.13"
+requires-python = ">=3.12.12"
 dependencies = [
     "ccxt>=4.5.56",
     "ipywidgets>=8.1.8",
@@ -22,7 +22,7 @@ dependencies = [
     "seaborn>=0.13.2",
     "shap>=0.52.0",
     "statsmodels>=0.14.6",
-    "tensorflow>=2.21.0",
+    "tensorflow>=2.21.0; sys_platform != 'darwin' or platform_machine != 'x86_64'",
     "tqdm>=4.67.3",
     "xgboost>=3.2.0",
 ]
